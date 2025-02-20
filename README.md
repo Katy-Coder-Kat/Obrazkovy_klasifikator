@@ -1,4 +1,4 @@
- O projektu
+O projektu:
 Tento projekt má za cíl vytvořit obrazový klasifikátor, který dokáže rozpoznávat různé druhy zvířat. Model je postaven na architektuře ResNet18 a využívá PyTorch. Cesta k úspěchu vedla přes spoustu obrázků, tunu kódu a pár nesprávně nastavených cest k souborům.
 
 Použitá data
