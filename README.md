@@ -2,11 +2,11 @@ O projektu:
 Tento projekt má za cíl vytvořit obrazový klasifikátor, který dokáže rozpoznávat různé druhy zvířat. Model je postaven na architektuře ResNet18 a využívá PyTorch. Cesta k úspěchu vedla přes spoustu obrázků, tunu kódu a pár nesprávně nastavených cest k souborům.
 
 Použitá data
-Obrázky jsou organizovány podle kategorií zvířat a rozdělily se do tří skupin:
+Obrázky jsou organizovány podle kategorií zvířat a rozdělila se do tří skupin:
 
-Train (70 %) – Co se nenaučí tady, to už nikde.
-Validation (20 %) – Pomáhá modelu ladit formu.
-Test (10 %) – Zkouška ohněm na neznámých datech.
+Train (70 %) 
+Validation (20 %) 
+Test (10 %) 
 
 Struktura projektu
 
@@ -30,13 +30,12 @@ Rozdělení na trénovací, validační a testovací sady.
 Augmentace obrázků (rotace, zrcadlení, změna jasu).
 
 Trénování modelu
-Použití ResNet18 – protože proč vynalézat kolo, když existuje předtrénovaný model.
+Použití ResNet18 
 Optimalizace pomocí CrossEntropyLoss a Adam optimizéru.
 5 epoch a model měl velmi slušné výsledky.
 
 Testování modelu
-Přesnost 98,7 % – ne že by to bylo špatné, ale vždycky může být lépe.
-
+Přesnost 98,7 % 
 Chyby a jejich (téměř) bezbolestná řešení
 Neexistující cesty k souborům → Přidány diagnostické výpisy.
 Chybějící importy → Důsledná kontrola knihoven, už žádné ModuleNotFoundError.
@@ -48,10 +47,6 @@ Předpoklady
 Python 3.10+
 Knihovny PyTorch, Torchvision, PIL
 
- Kroky ke spuštění
-
-Připrav data
-Nezpracované obrázky umísti do data/raw/raw-img
 
 Budoucí vylepšení
 Rozšíření datasetu – Více kategorií, více obrázků, více datových chyb, co budu opravovat.
