@@ -60,8 +60,7 @@ Ukázka výstupu
 📌 Kolik obrázků obsahuje jednotlivé kategorie.  
 ![Distribuce dat](https://github.com/Katy-Coder-Kat/Obrazkovy_klasifikator/blob/main/dataset_distribution.png?raw=true)
 
-
-🔥 Plán vývoje 
+Plán vývoje 
 ✅ 1. Implementace základního CNN modelu
 ✅ 2. Přidání augmentace dat
 ✅ 3. Přidání vizualizace výsledků
