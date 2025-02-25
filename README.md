@@ -47,16 +47,18 @@ python test_model.py
 python visualize_results.py
 
 Ukázka výstupu
-Confusion Matrix
-📌 Ukazuje chyby modelu při klasifikaci obrázků.
 
+###  Confusion Matrix
+📌 Ukazuje chyby modelu při klasifikaci obrázků.  
+![Confusion Matrix](https://github.com/Katy-Coder-Kat/Obrazkovy_klasifikator/blob/main/confusion_matrix.png?raw=true)
 
-Distribuce datasetu podle tříd
-📌 Kolik obrázků obsahuje jednotlivé kategorie.
+###  Ukázka predikce modelu
+📌 Model detekoval zvíře na obrázku jako **"cane" (pes)**.  
+![Predikce](https://github.com/Katy-Coder-Kat/Obrazkovy_klasifikator/blob/main/sample_prediction.png?raw=true)
 
-
-Ukázka predikce modelu
-📌 Model detekoval zvíře na obrázku jako "cane" (pes).
+###  Distribuce datasetu podle tříd
+📌 Kolik obrázků obsahuje jednotlivé kategorie.  
+![Distribuce dat](https://github.com/Katy-Coder-Kat/Obrazkovy_klasifikator/blob/main/dataset_distribution.png?raw=true)
 
 
 🔥 Plán vývoje 
